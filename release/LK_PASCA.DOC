@@ -1,0 +1,41 @@
+               LINKEUR DE FICHIERS SOURCES EN PASCAL.
+
+   Ce programme est destin‚ aux utilisateurs du  Turbo  Pascal  de 
+Borland. En effet, il recherche les directives d'inclusion $I dans 
+les fichiers en Pascal.
+
+   Lorsqu'il trouve ces directives, il remplace la  ligne  occup‚e 
+par le listing du fichier … linker (s'il peut le trouver !).
+
+******************************************************************
+   LK_PASCA 1.0: (27/01/1991)
+
+* Cette version peut linker des fichiers sur  20  niveaux  maximum 
+(on peut  avoir  vingt  fichiers  s'appelant  les  uns  aprŠs  les 
+autres).
+
+* Je ne regarde par  les  appels  r‚cursifs  (ce  qui  peut  poser 
+problŠme, mais qui serait stupide … faire dans  un  programme:  il 
+est  rare  (et  je  l'espŠre  impensable  pour  vous)  d'avoir  un 
+programme qui demande au compilateur de linker son  propre  source 
+!!!!).
+
+* Faites attention  aux  appels  crois‚s  que  le  compilateur  de 
+Borland ne doit pas  accepter  non  plus,  ils  pourraient  causer 
+l'apparition d'un fichier prenant toute la place disponible sur le 
+disque que vous utilisez.
+
+* Le fichier link‚ aura un nom que  vous  devrez  sp‚cifier  aprŠs 
+avoir choisi le nom du fichier de d‚part.
+
+******************************************************************
+Vous pouvez me contacter pour me donner des id‚es de programmes et 
+utilitaires,  mais  aussi  pour  m'indiquer  les  bugs  que   vous 
+trouverez dans mes programmes … l'adresse suivante (ou en personne 
+si vous me connaissez !):
+
+(maj du 05/12/2024 : adresse postale de l'epoque retiree du fichier, me contacter depuis https://developeur-pascal.fr ou https://olfsoftware.fr pour toute question)
+
+******************************************************************
+
+Mise a jour de cette documentation le 24/06/1992.
